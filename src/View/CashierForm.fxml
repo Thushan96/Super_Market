@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="296.0" prefWidth="445.0" style="-fx-background-color: #74b9ff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CashierFormController">
+   <children>
+      <Button alignment="CENTER" layoutX="126.0" layoutY="56.0" mnemonicParsing="false" onAction="#addNewCustomerOnAction" prefHeight="64.0" prefWidth="189.0" style="-fx-background-color: #0984e3;" stylesheets="@../Use.css" text="Add new Customer" textFill="#f2eaea">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="127.0" layoutY="139.0" mnemonicParsing="false" onAction="#manageOrdersOnAction" prefHeight="64.0" prefWidth="189.0" style="-fx-background-color: #00b894;" stylesheets="@../Use.css" text="Manage Orders" textFill="#f2eaea">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="backBtn" layoutX="316.0" layoutY="249.0" mnemonicParsing="false" onAction="#backBtnOnAction" prefHeight="39.0" prefWidth="121.0" stylesheets="@../Use.css" text="Back">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
